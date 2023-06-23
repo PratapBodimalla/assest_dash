@@ -69,7 +69,7 @@ var aiapygridOptions = {
     noRowsToShow: "Custom No Data Message", // Set custom "No Data" message
   },
   defaultColDef: {
-    //valueFormatter: numberToFixedDecimal,
+    valueFormatter: numberToFixedDecimal,
     minWidth: 80,
     maxWidth: 165,
     // wrapText: true,
